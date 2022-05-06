@@ -29,16 +29,16 @@ figure(1)
 plot([0:Dt:T], [Szero,S],'b-*');
 xlabel('$t$','Interpreter','latex','FontSize',14 );
 ylabel('$S(t)$','Interpreter','latex','FontSize',14 );
-title('Ignorant (Susceptible)','Interpreter','latex','FontSize',16);
+title('Susceptible','Interpreter','latex','FontSize',16);
 
 figure(2)
 plot([0:Dt:T], [Izero,I],'r--*');
 xlabel('$t$','Interpreter','latex','FontSize',14 );
 ylabel('$I(t)$','Interpreter','latex','FontSize',14 );
-title('Spreader (Infected)','Interpreter','latex','FontSize',16);
+title('Infected','Interpreter','latex','FontSize',16);
 
 figure(3)
 plot([0:Dt:T], [Rzero,R],'g--*');
 xlabel('$t$','Interpreter','latex','FontSize',14 );
 ylabel('$R(t)$','Interpreter','latex','FontSize',14 );
-title('Stifler (Removed)','Interpreter','latex','FontSize',16);
+title('Removed','Interpreter','latex','FontSize',16);
