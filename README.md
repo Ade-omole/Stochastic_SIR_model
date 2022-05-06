@@ -1,5 +1,5 @@
 # Stochastic SIR model
-NUMERICAL SIMULATION OF STOCHASTIC SIR EPIDEMICAL MODEL
+NUMERICAL SIMULATION OF STOCHASTIC SIR EPIDEMIC MODEL
 
 MATLAB simulation of a stochastic epidemic model adapted from the "Jiang, Daqing, et al., Asymptotic behavior of global positive solution to a stochastic SIR model (2011)." 
 
