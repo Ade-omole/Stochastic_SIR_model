@@ -17,11 +17,9 @@ for j = 1:L-1
     Winc = sum(dW(z*(j-1)+1:z*j));
    
 
-    S(j+1) = S(j) + (lambda-beta*S(j).*I(j)-mu*S(j))*Dt +...
-            sigma_1*S(j).*Winc;
+    S(j+1) = S(j) + (lambda-beta*S(j).*I(j)-mu*S(j))*Dt + sigma_1*S(j).*Winc;
 
-    I(j+1) = I(j) + (beta*I(j)-(mu+epsilon+gamma)*I(j))*Dt...
-            + sigma_2*I(j).*Winc;
+    I(j+1) = I(j) + (beta*I(j)-(mu+epsilon+gamma)*I(j))*Dt + sigma_2*I(j).*Winc;
 
     R(j+1) = R(j) + (gamma*I(j)-mu*R(j))*Dt + sigma_3*R(j).*Winc;
 end
